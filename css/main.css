@@ -1,0 +1,78 @@
+body {
+    margin: 70px;
+}
+
+.contact li+li::before {
+    content: "|";
+    padding: 0 10px;
+    font-size: 14px;
+    color: #212529;
+}
+
+.info {
+    display: flex;
+}
+
+.contact a {
+    color: #212529;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.contact .info:first-child {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.content {
+    margin: 3rem 18rem;
+}
+
+.title {
+    border-bottom: 1px solid #212529;
+}
+
+.content ul,
+.project,
+.content p {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.content .experiences:nth-child(2) {
+    margin-top: 0;
+}
+
+.experiences {
+    margin-bottom: 30px;
+}
+
+@media (max-width: 1140px) {
+    body {
+        margin: 20px;
+    }
+
+    .content {
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 1300px) {
+    .content {
+        margin: 0;
+    }
+}
+
+@media (max-width: 640px) {
+    .contact .info {
+        display: block;
+    }
+
+    .contact li+li::before {
+        content: " ";
+        padding: 0 10px;
+        font-size: 14px;
+        color: #212529;
+    }
+}
