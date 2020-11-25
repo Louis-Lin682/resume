@@ -2,6 +2,11 @@ body {
     margin: 70px;
 }
 
+.picture img {
+    width: 80px;
+    border-radius: 5%;
+}
+
 .contact li+li::before {
     content: "|";
     padding: 0 10px;
