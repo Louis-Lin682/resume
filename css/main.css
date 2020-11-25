@@ -39,6 +39,17 @@ body {
     margin-top: 10px;
 }
 
+.project {
+    align-items: baseline;
+}
+
+.project-name a {
+    color: #494949;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
 .content .experiences:nth-child(2) {
     margin-top: 0;
 }
@@ -74,5 +85,10 @@ body {
         padding: 0 10px;
         font-size: 14px;
         color: #212529;
+    }
+
+    .project-name img {
+        width: 250px;
+        height: auto;
     }
 }
